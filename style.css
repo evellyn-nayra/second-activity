@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    background-color: #301860;
+    color: aliceblue;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: end;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    font-size: 22px;
+    justify-content: space-between;
+    color: aliceblue;
+}
+
+
+.cabecalho li{
+    display: flex;
+    margin: 50px;
+    list-style: none;
+}
+
+.options{
+    display: flex;   
+}
+
+#sessao1{
+    padding: 15rem;
+    background: rgb(255,255,255);
+    background: linear-gradient(121deg, rgba(255,255,255,1) 0%, rgba(72,48,120,1) 100%);
+}
+
+
+#sessao1 h1{
+    align-items: center;
+    font-size: 3em;
+    color: black;
+}
+
+#sessao1 p{
+    font-size: 2.3em;
+    margin: 20px 0;
+}
+
+#sessao1 button{
+    padding: 22px;
+    border-color: #372161;
+    border-radius: 40px;
+    font-size: 17px;
+    
+}
+
+#sessao1 a button:hover{
+    color: aliceblue;
+    background-color: #372161;
+    transition: 0.8s;
+    border-color: aliceblue;
+    cursor: pointer;
+}
+
+#app{
+    display: flex;
+    padding: 90px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+
+#app > div img{
+    width: 15rem;
+    height: 25rem;
+    margin-top: -40px;
+    margin-left: 70px;
+}
+
+#app > div p{
+    font-size: 2.3rem;
+    margin: 20px 0;
+}
+
+#app button{
+    padding: 22px;
+    border-radius: 40px;    
+    margin-bottom: 20px;
+    color: #372161;
+    border-color: #372161;
+    width: 20em;
+    background-color: aliceblue;
+    font-size: 17px;
+}
+
+#app a button:hover{
+    color: aliceblue;
+    background-color: #372161;
+    transition: 0.8s;
+    border-color: aliceblue;
+    cursor: pointer;
+}
+
+#sobre{
+    padding: 15rem;
+    background-color: white;
+}
+
+#sobre h1{
+    font-size: 45px;
+    text-align: center;
+    color: #001848;
+    margin-top: -10rem;
+    margin-bottom: 2rem;
+}
+
+#sobre button{
+    padding: 22px;
+    border-radius: 40px;    
+    margin-bottom: 20px;
+    color: #372161;
+    border-color: #001848;
+    width: 10em;
+    background-color: aliceblue;
+    font-size: 17px;
+}
+
+#sobre a button:hover{
+    background-color: #001848;
+    border-color: antiquewhite;
+    color: antiquewhite;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+#sobre p{
+    font-size: 1.8rem;
+    color: #001848;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+#saiba-mais{
+    background: url(imagens/azul-pontos-turisticos-do-sudeste.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20rem;
+}
+
+
+
