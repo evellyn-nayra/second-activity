@@ -144,13 +144,30 @@
 }
 
 #saiba-mais{
-    background: url(imagens/azul-pontos-turisticos-do-sudeste.jpeg);
+    background: linear-gradient(121deg, rgba(255,255,255,1) 0%, rgba(165,164,168,0.028448879551820738) 100%), url(imagens/azul-pontos-turisticos-do-sudeste.jpeg);
     background-position: center;
     background-attachment: fixed;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 20rem;
+}
+
+#saiba-mais h2{
+    color:black;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+    margin-left: 2rem;
+}
+
+#saiba-mais p{
+    color:black;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 600;
+    margin-left: 20rem;
 }
 
 
