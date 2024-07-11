@@ -31,6 +31,16 @@
     display: flex;   
 }
 
+footer{
+    background-color: #301860;
+    padding: 50px;
+}
+
+footer p{
+    color: aliceblue;
+    text-align: center;
+}
+
 #sessao1{
     padding: 15rem;
     background: rgb(255,255,255);
